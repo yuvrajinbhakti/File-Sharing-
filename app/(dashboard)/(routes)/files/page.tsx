@@ -3,7 +3,7 @@ import React from "react";
 
 const Files = () => {
   return (
-    <div>
+    <div className=" flex flex-col">
       Files
       <UserButton afterSignOutUrl="/" />
     </div>
